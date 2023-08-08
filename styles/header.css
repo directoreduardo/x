@@ -1,0 +1,22 @@
+header {
+  background-image: linear-gradient(to bottom, rgb(141, 203, 223), lightblue);
+  min-height: 115px;
+  text-align: center;
+  padding-top: 20px;
+}
+header h1 {
+  color: white;
+  text-shadow: 1px 1px 3px black;
+  font-size: 70px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-bottom: 10px;
+}
+header p {
+  height: 55px;
+  color: rgb(0, 0, 204);
+  font-family: arial;
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: overline;
+  text-shadow: 1px 1px 2px gray;
+}
