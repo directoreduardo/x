@@ -1,11 +1,23 @@
 .sidebar {
-  background-color: red;
+  background-color: white;
   position: fixed;
   left: 0;
   bottom: 0;
-  top: 235px;
+  top: 235px; /*310*/
   width: 100px;
 }
 .sidebar img {
   height: 50px;
+}
+.sidebar-link {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+  transition: background-color 0.45s
+}
+.sidebar-link:hover {
+  background-color: rgb(235, 234, 234);
 }
