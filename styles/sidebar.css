@@ -1,15 +1,6 @@
 .sidebar {
   background-color: white;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  top: 310px; /*310*/
   width: 100px;
-}
-@media (min-width: 545px) {
-  .sidebar {
-    top: 235px
-  }
 }
 .sidebar img {
   height: 50px;
