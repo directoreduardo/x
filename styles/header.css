@@ -1,4 +1,7 @@
 header {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
   background-image: linear-gradient(to bottom, rgb(141, 203, 223), lightblue);
   min-height: 115px;
   text-align: center;
